@@ -1,0 +1,74 @@
+.container-centre{
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.container-max-width{
+  max-width: 1200px;
+}
+.criptoCards-logo{
+    display: flex;
+  width: 100%;
+  &-section{
+    display: flex;
+    width: 100%;
+    &-inline{
+      height: 116px;
+      width: 100%;
+      background-color: #1f2328;
+      margin: 20px;
+      border-radius: 26px;
+      border: solid 1px #393c3f;
+      img{
+        max-width: 73%;
+        height: auto;
+        box-sizing: border-box;
+        margin: 30px;
+      }
+    }
+    &-last{
+      &-inline{
+        height: 116px;
+        width: 73%;
+        background-color: #1f2328;
+        margin: 20px;
+        border-radius: 26px;
+        border: solid 1px #393c3f;
+        img{
+          max-width: 73%;
+          height: auto;
+          box-sizing: border-box;
+          margin: 30px;
+        }
+        }
+      }
+    }
+}
+
+@media screen and (max-width: 960px) {
+  .criptoCards-logo{
+    flex-direction: column;
+    &-section {
+     text-align: center;
+      &-inline{
+        height: auto;
+        width:50%;
+        img{
+          max-width: 64%;
+          height: auto;
+        }
+        }
+      &-last{
+        display: flex;
+        justify-content: center;
+        &-inline{
+          height: auto;
+          width: 50%;
+          img{
+            max-width: 64%;
+          }
+        }
+      }
+    }
+    }
+}

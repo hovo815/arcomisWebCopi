@@ -1,0 +1,265 @@
+.container-blog {
+  color: white;
+  padding-top: 150px;
+  &-max-width {
+    display: flex;
+    justify-content: center;
+
+    &-contant {
+      max-width: 1200px;
+
+      &-title {
+        text-align: center;
+        font-size: 50px;
+        color: white;
+      }
+
+      &-card-people {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        &-img {
+          width: 100%;
+
+          img {
+            width: 100%;
+            border-radius: 1.5%;
+            cursor: pointer;
+          }
+        }
+
+        &-text {
+          width: 50%;
+          margin-left: 35px;
+
+          img {
+            border-radius: 100%;
+            height: 50px;
+            cursor: pointer;
+          }
+
+          &-data {
+            font-size: 18px;
+            font-weight: 800;
+            color: #f1a60a;
+            cursor: pointer;
+            span {
+              color: #b7b4bb;
+              margin-left: 20px;
+            }
+          }
+
+          &-title {
+            font-size: 30px;
+            font-weight: 600;
+            margin-top: 20px;
+            width: 68%;
+            cursor: pointer;
+          }
+
+          &-characterize {
+            font-weight: 600;
+            color: #b7b4bb;
+            font-size: 18px;
+            margin-top: 20px;
+          }
+
+          &-img {
+            display: flex;
+            margin-top: 150px;
+
+            p:first-child {
+              font-size: 18px;
+              font-weight: 600;
+              color: #b7b4bb;
+            }
+
+            p {
+              font-size: 18px;
+              font-weight: 100;
+              color: white;
+            }
+          }
+        }
+      }
+
+      &-card-development {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+
+        &-1 {
+          width: 29%;
+          &-img {
+            width: 100%;
+            border-radius: 2%;
+            cursor: pointer;
+          }
+
+          &-data {
+            font-size: 18px;
+            font-weight: 800;
+            color: #f1a60a;
+            cursor: pointer;
+            span {
+              color: #b7b4bb;
+              margin-left: 20px;
+            }
+          }
+
+          &-title {
+            font-size: 30px;
+            font-weight: 600;
+            margin-top: 20px;
+            width: 100%;
+            cursor: pointer;
+          }
+
+          &-text {
+            font-weight: 600;
+            color: #b7b4bb;
+            font-size: 18px;
+            margin-top: 20px;
+          }
+        }
+
+        &-2 {
+          width: 32%;
+
+          &-img {
+            width: 100%;
+            border-radius: 2%;
+            cursor: pointer;
+          }
+
+          &-data {
+            font-size: 18px;
+            font-weight: 800;
+            color: #f1a60a;
+            cursor: pointer;
+            span {
+              color: #b7b4bb;
+              margin-left: 20px;
+            }
+          }
+
+          &-title {
+            font-size: 30px;
+            font-weight: 600;
+            margin-top: 20px;
+            width: 100%;
+            cursor: pointer;
+          }
+
+          &-text {
+            font-weight: 600;
+            color: #b7b4bb;
+            font-size: 18px;
+            margin-top: 20px;
+          }
+        }
+
+        &-3 {
+          width: 32%;
+
+          &-img {
+            width: 100%;
+            border-radius: 2%;
+          }
+
+          &-data {
+            font-size: 18px;
+            font-weight: 800;
+            color: #f1a60a;
+            cursor: pointer;
+            span {
+              color: #b7b4bb;
+              margin-left: 20px;
+            }
+          }
+
+          &-title {
+            font-size: 30px;
+            font-weight: 600;
+            margin-top: 20px;
+            width: 100%;
+            cursor: pointer;
+          }
+
+          &-text {
+            font-weight: 600;
+            color: #b7b4bb;
+            font-size: 18px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .container-blog {
+    &-max-width {
+      &-contant {
+        &-card-people {
+          display: flex;
+          flex-direction: column;
+          margin: 30px;
+
+          &-text {
+            margin-top: 20px;
+            margin-left: 0;
+             width: 100%;
+            &-title{
+            width: 100%;
+          }
+            &-img {
+              margin-top: 20px;
+
+              p {
+                margin-left: 20px;
+              }
+            }
+          }
+        }
+
+        &-title {
+
+        }
+
+        &-card-development {
+          flex-direction: column;
+          margin: 30px;
+
+          &-1 {
+            width: 100%;
+            margin-top: 50px;
+            &-img {
+              width: 100%;
+              border-radius: 2%;
+            }
+          }
+
+          &-2 {
+            width: 100%;
+            margin-top: 50px;
+            &-img {
+              width: 100%;
+              border-radius: 2%;
+            }
+          }
+
+          &-3 {
+            width: 100%;
+            margin-top: 50px;
+            &-img {
+              width: 100%;
+              border-radius: 2%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

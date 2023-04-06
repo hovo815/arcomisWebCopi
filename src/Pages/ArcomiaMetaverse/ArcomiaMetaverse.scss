@@ -1,0 +1,247 @@
+.metaverse-max-width{
+  max-width: 1200px;
+}
+.container-metaverse{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  &-title{
+   text-align: center;
+    h2{
+        font-family: 'Anton', sans-serif;
+        background-image: linear-gradient(to right,white 46%,  #efad06 30% , #fa7925 100%);
+        color: white;
+        font-size: 55px;
+        text-transform: uppercase;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 800;
+      }
+    }
+  &-text{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   p{
+     color: white;
+     width: 61%;
+     font-size: 17px;
+     text-align: -webkit-center;
+   }
+  }
+  &-card{
+    display: flex;
+    flex-wrap: wrap;
+    &-box{
+      width: 46%;
+      background-color: #202429;
+      border-radius: 20px;
+      margin: 20px;
+      img{
+        margin-top: 30px;
+        max-width: 100%;
+       height: auto;
+       box-sizing: border-box;
+     }
+      h2{
+        font-family: 'Anton', sans-serif;
+        text-align: start;
+        color: white;
+        font-size: 22px;
+        font-weight: 800;
+        margin: 0 0 0 25px;
+      }
+      p{
+        text-align: start;
+        color: white;
+        width: 80%;
+        font-size: 18px;
+        height: 100px;
+        margin:20px 0 0 20px;
+      }
+    }
+    &-village{
+      width: 46%;
+      background-color: #202429;
+      border-radius: 20px;
+      margin: 20px;
+      img{
+        margin-top: 30px;
+        max-width: 80%;
+       height: auto;
+       box-sizing: border-box;
+     }
+      h2{
+        text-align: start;
+        color: white;
+        font-weight: 800;
+        font-size: 22px;
+        font-family: 'Anton', sans-serif;
+        height: 50px;
+        margin: 67px 0 0 20px ;
+      }
+      p{
+        text-align: start;
+        color: white;
+        width: 80%;
+        font-size: 18px;
+        height: 100px;
+        margin:0 0 0 20px;
+      }
+    }
+    &-city{
+      width: 46%;
+      background-color: #202429;
+      border-radius: 20px;
+      margin: 20px;
+      img{
+        margin-top: 30px;
+        max-width: 100%;
+        height: auto;
+        box-sizing: border-box;
+     }
+      h2{
+        font-family: 'Anton', sans-serif;
+        text-align: start;
+        color: white;
+        font-size: 22px;
+        margin: 30px 0 0 20px;
+      }
+      p{
+        text-align: start;
+        color: white;
+        font-size: 18px;
+        width: 84%;
+        height: 100px;
+        margin: 20px 0 30px 20px;
+      }
+    }
+    &-arcoscooter{
+      width: 46%;
+      background-color: #202429;
+      border-radius: 20px;
+      margin: 20px;
+      img{
+        max-width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        font-size: 11px;
+        margin-top: 30px;
+     }
+      h2{
+        font-family: 'Anton', sans-serif;
+        text-align: start;
+        font-size: 22px;
+        color: white;
+        margin: 30px 0 0 20px;
+        height: 50px;
+      }
+      p{
+        text-align: start;
+        color: white;
+        font-size: 18px;
+        width: 90%;
+        margin: 0px 0 30px 20px;
+        height: 100px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1001px) {
+  .container-metaverse-card-box{
+    width: 45%;
+  }
+  .container-metaverse-card-village{
+    width: 45%;
+  }
+  .container-metaverse-card-city{
+    width: 45%;
+  }
+  .container-metaverse-card-arcoscooter{
+    width: 45%;
+  }
+}
+@media screen and (max-width: 946px) {
+  .container-metaverse-card-village p{
+    font-size: 15px;
+  }
+  .container-metaverse-card-box p {
+    font-size: 15px;
+  }
+  .container-metaverse-card-city p {
+    font-size: 15px;
+  }
+  .container-metaverse-card-arcoscooter p {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 801px) {
+  .container-metaverse-card-box{
+    width: 44%;
+  }
+  .container-metaverse-card-village{
+    width: 44%;
+  }
+  .container-metaverse-card-city{
+    width: 44%;
+  }
+  .container-metaverse-card-arcoscooter{
+    width: 44%;
+  }
+  .container-metaverse-title{
+    h2{
+      font-size: 45px;
+    }
+  }
+  .container-metaverse-text{
+    p{
+    font-size: 14px;
+  }
+  }
+}
+@media screen and (max-width: 684px) {
+  .container-metaverse-card-box{
+    width: 100%;
+  }
+  .container-metaverse-card-village{
+    width: 100%;
+  }
+  .container-metaverse-card-city{
+    width: 100%;
+  }
+  .container-metaverse-card-arcoscooter{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 590px) {
+  .container-metaverse-title{
+    h2{
+      font-size: 35px;
+    }
+  }
+  .container-metaverse-text{
+    p{
+      font-size: 14px;
+    }
+}
+}
+@media screen and (max-width: 452px) {
+  .container-metaverse-title{
+    h2{
+      font-size: 25px;
+    }
+  }
+  .container-metaverse-text{
+    p{
+      font-size: 12px;
+    }
+  }
+}
+@media screen and (max-width: 377px) {
+  .container-metaverse-title{
+    h2{
+      font-size: 21px;
+    }
+  }
+
+}

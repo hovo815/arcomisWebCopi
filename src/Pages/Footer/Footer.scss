@@ -1,0 +1,222 @@
+.container-footer {
+  margin-top: 90px;
+  &-discord {
+    text-align: center;
+    &-img {
+      height: 300px;
+      width: 100%;
+      opacity: 0.17;
+      position: relative;
+    }
+
+    &-centre {
+      display: flex;
+      justify-content: center;
+
+      &-text {
+        position: absolute;
+        text-align: center;
+
+        h2 {
+          font-family: "Anton", sans-serif;
+          color: white;
+          font-size: 60px;
+          font-weight: 800;
+          margin-top: 20px;
+
+          span {
+            font-family: "Anton", sans-serif;
+            background-image: linear-gradient(to right, #efad06, #fa7925);
+            color: white;
+            font-size: 60px;
+            text-transform: uppercase;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+            margin: 20px 0 0 20px;
+          }
+        }
+
+        p {
+          margin-top: 20px;
+          color: white;
+          font-size: 24px;
+        }
+
+        &-button {
+          button {
+            background-image: linear-gradient(to right, #efad06 30%, #fa7925 100%);
+            border: none;
+            border-radius: 30px;
+            height: 50px;
+            width: 180px;
+            cursor: pointer;
+            margin-top: 50px;
+
+            a {
+              color: white;
+              font-weight: 800;
+              text-decoration: none;
+              font-size: 17px;
+              cursor: pointer;
+            }
+          }
+
+          button:hover {
+            background-image: linear-gradient(to right, #c99204 30%, #d86114 100%);
+          }
+        }
+      }
+    }
+  }
+
+  &-socset {
+    &-logo {
+      text-align: center;
+      margin-top: 70px;
+
+      &-img {
+        img {
+          margin: 10px;
+          height: 30px;
+        }
+      }
+    }
+
+    &-text {
+      color: white;
+      margin: 50px 0 100px 0;
+
+      &-button {
+        li {
+          color: white;
+
+          img {
+            width: 10px;
+          }
+        }
+      }
+
+      &-border {
+        display: flex;
+        justify-content: center;
+
+        hr {
+          width: 90%;
+          border-color: #252e37;
+        }
+      }
+
+      &-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+
+        &-contant {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 90%;
+
+          p {
+            color: #a2a7ab;
+          }
+
+          ul {
+            li {
+              cursor: pointer;
+              list-style: none;
+              margin-bottom: 25px;
+
+              img {
+                margin-left: 20px;
+              }
+
+              a {
+                color: white;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 961px) {
+  .container-footer {
+    &-socset {
+      &-text {
+        &-button {
+          &-contant {
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container-footer {
+    &-discord {
+      &-centre {
+        &-text {
+          h2 {
+            font-size: 40px;
+
+            span {
+              font-size: 40px;
+            }
+          }
+
+          p {
+            margin-top: 20px;
+            color: white;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .container-footer {
+    &-discord {
+      &-centre {
+        &-text {
+          h2 {
+            font-size: 30px;
+            span {
+              font-size: 30px;
+            }
+          }
+          p {
+            margin-top: 20px;
+            color: white;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .container-footer {
+    &-socset {
+      &-text {
+        &-button {
+          &-contant {
+            flex-direction: column;
+
+            p {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

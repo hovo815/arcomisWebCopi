@@ -1,0 +1,251 @@
+
+.container-binancePitch {
+  display: flex;
+  justify-content: center;
+
+  &-max-width {
+    max-width: 1200px;
+    margin: 0 30px 0 30px;
+
+    &-text {
+      padding: 180px 0 100px 0;
+      text-align: center;
+
+      &-navigate {
+        color: #b7afad;
+        display: flex;
+        font-family: "Anton", sans-serif;
+        font-weight: 600;
+         cursor: pointer;
+        img {
+          width: 15px;
+          margin-right: 8px;
+        }
+      }
+
+      &-data {
+        font-size: 18px;
+        font-weight: 800;
+        color: #f1a60a;
+        margin-top: 20px;
+
+        span {
+          color: #b7b4bb;
+          margin-left: 20px;
+          font-weight: 400;
+        }
+      }
+
+      &-title {
+        margin-top: 20px;
+        font-family: "Anton", sans-serif;
+        color: white;
+        font-size: 55px;
+        font-weight: 600;
+      }
+    }
+
+    &-card1 {
+      img {
+        width: 100%;
+        border-radius: 1.5%;
+      }
+
+      &-text {
+        display: flex;
+        justify-content: center;
+
+        p {
+          font-size: 20px;
+          font-family: "Anton", sans-serif;
+          font-weight: 300;
+          width: 55%;
+          line-height: 31px;
+          margin-top: 50px;
+          color: white;
+        }
+      }
+
+    }
+
+    &-data {
+      display: flex;
+      justify-content: center;
+
+      .binancePitch-width {
+        width: 55%;
+      }
+
+      &-center {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 80px;
+
+        &-type {
+          font-family: "Anton", sans-serif;
+          color: #b7b4bb;
+          font-size: 18px;
+          font-weight: 600;
+        }
+
+        &-icon {
+          display: flex;
+
+          &-img {
+            height: 40px;
+            white: 40px;
+            margin: 7px;
+
+            img {
+              height: 40px;
+              cursor: pointer;
+            }
+
+            &-email {
+              background-color: #7f7f7f;
+              height: 40px;
+              width: 40px;
+              border-radius: 50%;
+              text-align: center;
+              overflow: hidden;
+              margin: 7px;
+
+              img {
+                height: 30px;
+                width: 30px;
+                margin-top: 5px;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+      }
+
+      &-avter {
+        background-color: #202429;
+        border-radius: 18px;
+        margin-top: 60px;
+
+        &-width {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 100px;
+
+          &-user {
+            display: flex;
+            align-items: center;
+
+            &-logo {
+              img {
+                height: 60px;
+                width: 60px;
+                border-radius: 100%;
+                object-fit: cover;
+                margin-left: 20px;
+              }
+            }
+
+            &-name {
+              margin-left: 10px;
+
+              p:first-child {
+                font-family: "Anton", sans-serif;
+                color: white;
+                font-size: 19px;
+                font-weight: 600;
+              }
+
+              p:last-child {
+                color: #b7afad;
+                margin-top: 5px;
+                font-family: "Anton", sans-serif;
+                font-size: 14px;
+              }
+            }
+          }
+
+          &-img {
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            margin-right: 20px;
+            img {
+              height: 26px;
+              width: 34px;
+              cursor: pointer;
+              background-color: white;
+              object-fit: cover;
+              border-radius: 5px;
+
+            }
+          }
+        }
+      }
+    }
+
+    &-img {
+      margin: 80px 0 0 0;
+      text-align: center;
+
+      img {
+        width: 70px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 892px){
+  .card2-video iframe{
+    width: 450px;
+  }
+}
+@media screen and (max-width: 644px) {
+  .card2-video iframe{
+    width: 300px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 427px) {
+  .card2-video iframe{
+    width: 200px;
+    height: 150px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .binancePitch-centre{
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 680px) {
+  .container-binancePitch-max-width-data-center{
+    flex-direction: column;
+    &-icon{
+      margin-top: 20px;
+    }
+  }
+  .container-binancePitch-max-width-data-avter {
+    &-width{
+      text-align: center;
+      flex-direction: column;
+      height: 288px;
+      &-user{
+        flex-direction: column;
+        p{
+        margin-top: 20px}
+        &-logo{
+          img{
+            margin: 20px 0 0 0;
+          }
+        }
+      }
+      &-img{
+        margin: 50px 0 0 0 ;
+        img{
+        }
+      }
+    }
+    }
+  }
+

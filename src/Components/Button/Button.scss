@@ -1,0 +1,42 @@
+.button1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 51px;
+  border-radius: 40px;
+  width: 205px;
+  border: solid 1px #4d4f52;
+  button {
+    background: none;
+    height: 50px;
+    width: 185px;
+    cursor: pointer;
+    font-weight: 800;
+    border: none;
+    border-radius: 40px;
+    a {
+      color: #f1a60a;
+      font-weight: 800;
+      text-decoration: none;
+      font-size: 15px;
+      cursor: pointer;
+      line-height: 18px;
+      margin-top: 12px;
+    }
+  }
+
+}
+.button1:hover {
+  background-color: #f29e0e;
+  color: white;
+  button{
+      background-color: #f29e0e;
+      color: white;
+  a{
+    color: white;
+  }
+  img{
+    fill: white;
+  }
+}
+}

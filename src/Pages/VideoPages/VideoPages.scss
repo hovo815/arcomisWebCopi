@@ -1,0 +1,153 @@
+.container-video {
+  position: relative;
+  video {
+    width: 100%;
+  }
+  &-text {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 53px;
+    z-index: 2;
+    &-title{
+    &-1{
+      color: white;
+      font-size: 90px;
+      font-family: 'Anton', sans-serif;
+      font-weight: 800;
+    }
+    }
+    &-title{
+    &-2{
+      font-family: 'Anton', sans-serif;
+      background-image: linear-gradient(to right, #efad06 30% , #fa7925 100%);
+      font-size: 80px;
+      text-transform: uppercase;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 800;
+    }
+    }
+    &-centre {
+      display: flex;
+      justify-content: center;
+      p {
+        width: 43%;
+        font-size: 22px;
+        color: white;
+      }
+    }
+    button{
+      background-image: linear-gradient(to right, #efad06 30% , #fa7925 100%);
+      border: none;
+      border-radius: 30px;
+      height: 50px;
+      width: 180px;
+      cursor: pointer;
+      margin-top: 50px;
+     a{
+       color: white;
+       font-weight: 800;
+       text-decoration: none;
+       font-size: 17px;
+       cursor: pointer;
+     }
+    }
+    button:hover{
+      background-image: linear-gradient(to right, #c99204 30% , #d86114 100%);
+    }
+
+  }
+}
+@media screen and (max-width: 850px) {
+  .container-video {
+    video {
+    }
+    &-text {
+      &-title{
+        &-1{
+          font-size: 60px;
+        }
+      }
+      &-title{
+        &-2{
+          font-size: 60px;
+        }
+      }
+      &-centre {
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 738px) {
+  .container-video {
+    video {
+    }
+    &-text {
+      &-title{
+        &-1{
+          font-size: 40px;
+        }
+      }
+      &-title{
+        &-2{
+          font-size: 40px;
+        }
+      }
+      &-centre {
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 607px) {
+.container-video-text{
+  line-height: 44px;
+  &-centre{
+    line-height: 17px;
+  }
+  button{
+    margin-top: 20px;
+  }
+}
+
+}
+@media screen and (max-width: 438px) {
+  .container-video {
+    video {
+    }
+    &-text {
+      &-title{
+        &-1{
+          font-size: 30px;
+        }
+      }
+      &-title{
+        &-2{
+          font-size: 30px;
+        }
+      }
+      &-centre {
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .container-video-text{
+    line-height: 40px;
+    &-centre{
+      line-height: 13px;
+    }
+    button{
+      margin-top: 20px;
+    }
+  }
+
+}

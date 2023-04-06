@@ -1,0 +1,296 @@
+.container-Team-contant-title{
+  text-align: center;
+  padding-top: 150px;
+  h3{
+    font-family: "Anton", sans-serif;
+    font-size: 70px;
+    color: white;
+    font-weight: 600;
+  }
+}
+.team-max-width {
+  max-width: 1200px;
+  margin-top: 40px;
+}
+
+.container-Team {
+  display: flex;
+  justify-content: center;
+
+  &-contant {
+    display: flex;
+
+    &-card1 {
+      margin: 10px;
+
+      &-profession {
+        font-family: "Anton", sans-serif;
+        color: #b1afb1;
+        font-size: 17px;
+        margin-top: 30px;
+      }
+
+      &-name {
+        font-family: "Anton", sans-serif;
+        color: white;
+        font-size: 27px;
+        margin-top: 30px;
+      }
+
+      img {
+        width: 275px;
+        border-radius: 4%;
+      }
+
+      &-text {
+        &-1 {
+          font-family: "Anton", sans-serif;
+          color: #b1afb1;
+          width: 100%;
+          font-size: 20px;
+          margin-top: 30px;
+        }
+      }
+    }
+
+    &-card2 {
+      margin: 10px;
+
+      &-profession {
+        font-family: "Anton", sans-serif;
+        color: #b1afb1;
+        font-size: 17px;
+        margin-top: 30px;
+      }
+
+      &-name {
+        font-family: "Anton", sans-serif;
+        color: white;
+        font-size: 27px;
+        margin-top: 30px;
+      }
+
+      img {
+        width: 275px;
+        border-radius: 4%;
+      }
+
+      &-text {
+        &-2 {
+          font-family: "Anton", sans-serif;
+          color: #b1afb1;
+          width: 100%;
+          font-size: 20px;
+          margin-top: 30px;
+        }
+      }
+    }
+
+    &-card3 {
+      margin: 10px;
+
+      &-profession {
+        font-family: "Anton", sans-serif;
+        color: #b1afb1;
+        font-size: 17px;
+        margin-top: 30px;
+      }
+
+      &-name {
+        font-family: "Anton", sans-serif;
+        color: white;
+        font-size: 27px;
+        margin-top: 30px;
+      }
+
+      img {
+        width: 275px;
+        border-radius: 4%;
+      }
+
+      &-text {
+        &-3 {
+          font-family: "Anton", sans-serif;
+          color: #b1afb1;
+          width: 100%;
+          font-size: 20px;
+          margin-top: 30px;
+        }
+      }
+    }
+
+    &-card4 {
+      margin: 10px;
+
+      &-profession {
+        font-family: "Anton", sans-serif;
+        color: #b1afb1;
+        font-size: 17px;
+        margin-top: 30px;
+      }
+
+      &-name {
+        font-family: "Anton", sans-serif;
+        color: white;
+        font-size: 27px;
+        margin-top: 30px;
+      }
+
+      img {
+        width: 275px;
+        border-radius: 4%;
+      }
+
+      &-text {
+        &-4 {
+          font-family: "Anton", sans-serif;
+          color: #b1afb1;
+          width: 100%;
+          font-size: 20px;
+          margin-top: 30px;
+        }
+      }
+    }
+
+    &-card5 {
+      margin: 10px;
+
+      &-profession {
+        font-family: "Anton", sans-serif;
+        color: #b1afb1;
+        font-size: 17px;
+        margin-top: 30px;
+      }
+
+      &-name {
+        font-family: "Anton", sans-serif;
+        color: white;
+        font-size: 27px;
+        margin-top: 30px;
+      }
+
+      img {
+        width: 275px;
+        border-radius: 4%;
+      }
+
+      &-text {
+        &-5 {
+          font-family: "Anton", sans-serif;
+          color: #b1afb1;
+          width: 25%;
+          font-size: 20px;
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1220px) {
+  .container-Team-contant {
+    &-card1 {
+      width: 200px;
+      height: auto;
+        img{
+          width: 200px;
+        }
+    }
+
+    &-card2 {
+      width: 200px;
+      height: auto;
+      img{
+        width: 200px;
+      }
+    }
+
+    &-card3 {
+      width: 200px;
+      height: auto;
+      img{
+        width: 200px;
+      }
+    }
+
+    &-card4 {
+      width: 200px;
+      height: auto;
+      img{
+        width: 200px;
+      }
+    }
+
+    &-card5 {
+      width: 200px;
+      height: auto;
+      img{
+        width: 200px;
+      }
+      &-text-5{
+        width: 100%;
+      }
+    }
+    }
+
+  }
+
+
+@media screen and (max-width: 943px) {
+  .container-Team {
+    &-contant {
+      flex-direction: column;
+
+      &-card1 {
+        width: 90%;
+        margin: 5%;
+        img {
+          width: 100%;
+          height: 50vh;
+          object-fit: cover;
+          border-radius: 2%;
+        }
+      }
+      &-card2 {
+        width: 90%;
+        margin: 5%;
+        img {
+          width: 100%;
+          height: 50vh;
+          object-fit: cover;
+          border-radius: 2%;
+        }
+      }
+      &-card3 {
+        width: 90%;
+        margin: 5%;
+        img {
+          width: 100%;
+          height: 50vh;
+          object-fit: cover;
+          border-radius: 2%;
+        }
+      }
+      &-card4 {
+        width: 90%;
+        margin: 5%;
+        img {
+          width: 100%;
+          height: 50vh;
+          object-fit: cover;
+          border-radius: 2%;
+        }
+      }
+      &-card5 {
+        width: 90%;
+        margin: 5%;
+        img {
+          width: 100%;
+          height: 50vh;
+          object-fit: cover;
+          border-radius: 2%;
+        }
+      }
+    }
+  }
+}

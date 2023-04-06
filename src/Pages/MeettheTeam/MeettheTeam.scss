@@ -1,0 +1,381 @@
+.container-meettheTeam {
+  display: flex;
+  justify-content: center;
+
+  &-contant {
+    margin-top: 50px;
+
+    &-logo {
+      text-align: center;
+
+      img {
+        width: 80px;
+      }
+    }
+
+    &-title {
+      text-align: center;
+      margin-top: 50px;
+
+      h3 {
+        font-family: "Anton", sans-serif;
+        color: white;
+        font-size: 50px;
+
+        span {
+          font-family: "Anton", sans-serif;
+          background-image: linear-gradient(to right, #efad06, #fa7925);
+          color: white;
+          font-size: 50px;
+          text-transform: uppercase;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          font-weight: 800;
+          margin: 20px 0 0 20px;
+        }
+      }
+    }
+
+    &-card1 {
+      background-color: #202429;
+      border-radius: 12%;
+
+      img {
+        height: 192px;
+        width: 192px;
+        overflow: hidden;
+        border-radius: 12%;
+        margin: 10px;
+      }
+
+      &-name {
+        text-align: center;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: "Anton", sans-serif;
+        color: white;
+        margin-top: 15px;
+      }
+
+      &-profession {
+        text-align: center;
+        color: #b7b4bb;
+        font-size: 13px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+      }
+    }
+
+    &-card2 {
+      background-color: #202429;
+      border-radius: 12%;
+      margin-left: 28px;
+
+      img {
+        height: 192px;
+        width: 192px;
+        overflow: hidden;
+        border-radius: 12%;
+        margin: 10px;
+      }
+
+      &-name {
+        text-align: center;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: "Anton", sans-serif;
+        color: white;
+        margin-top: 15px;
+      }
+
+      &-profession {
+        text-align: center;
+        color: #b7b4bb;
+        font-size: 13px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+      }
+    }
+
+    &-card3 {
+      background-color: #202429;
+      border-radius: 12%;
+      margin-left: 28px;
+
+      img {
+        height: 192px;
+        width: 192px;
+        overflow: hidden;
+        border-radius: 12%;
+        margin: 10px;
+      }
+
+      &-name {
+        text-align: center;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: "Anton", sans-serif;
+        color: white;
+        margin-top: 15px;
+      }
+
+      &-profession {
+        text-align: center;
+        color: #b7b4bb;
+        font-size: 13px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+      }
+    }
+
+    &-card4 {
+      background-color: #202429;
+      border-radius: 12%;
+      margin-left: 28px;
+
+      img {
+        height: 192px;
+        width: 192px;
+        overflow: hidden;
+        border-radius: 12%;
+        margin: 10px;;
+      }
+
+      &-name {
+        text-align: center;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: "Anton", sans-serif;
+        color: white;
+        margin-top: 15px;
+      }
+
+      &-profession {
+        text-align: center;
+        color: #b7b4bb;
+        font-size: 13px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+      }
+    }
+
+    &-card5 {
+      background-color: #202429;
+      border-radius: 12%;
+      margin-left: 28px;
+
+      img {
+        height: 192px;
+        width: 192px;
+        overflow: hidden;
+        border-radius: 12%;
+        margin: 10px;
+      }
+
+      &-name {
+        text-align: center;
+        font-weight: 600;
+        font-size: 18px;
+        font-family: "Anton", sans-serif;
+        color: white;
+        margin-top: 15px;
+      }
+
+      &-profession {
+        text-align: center;
+        color: #b7b4bb;
+        font-size: 13px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+      }
+    }
+
+    &-button {
+      display: flex;
+      justify-content: center;
+
+      button {
+        background-image: linear-gradient(to right, #efad06 30%, #fa7925 100%);
+        border: none;
+        border-radius: 30px;
+        height: 50px;
+        width: 180px;
+        cursor: pointer;
+        margin-top: 50px;
+
+        a {
+          color: white;
+          font-weight: 800;
+          text-decoration: none;
+          font-size: 17px;
+          cursor: pointer;
+        }
+      }
+
+      button:hover {
+        background-image: linear-gradient(to right, #c99204 30%, #d86114 100%);
+      }
+    }
+
+    &-flex {
+      display: flex;
+
+      &-1 {
+        display: flex;
+      }
+
+      &-2 {
+        display: flex;
+      }
+
+      &-3 {
+        display: flex;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .container-meettheTeam-contant {
+    &-title h3 {
+      span {
+      }
+    }
+
+    &-flex {
+      &-1 {
+      }
+
+      &-2 {
+      }
+
+      &-3 {
+      }
+    }
+
+    &-card1 {
+      width: 48%;
+
+      img {
+        width: 140px;
+      }
+    }
+
+    &-card2 {
+      width: 48%;
+
+      img {
+        width: 140px;
+      }
+    }
+
+    &-card3 {
+      width: 48%;
+
+      img {
+        width: 140px;
+      }
+    }
+
+    &-card4 {
+      width: 48%;
+
+      img {
+        width: 140px;
+      }
+    }
+
+    &-card5 {
+      width: 100%;
+
+      img {
+        width: 140px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .container-meettheTeam-contant {
+    width: 100%;
+
+    &-title h3 {
+      font-size: 48px;
+
+      span {
+        font-size: 48px;
+      }
+    }
+
+    &-flex {
+      flex-direction: column;
+
+      &-1 {
+        margin-top: 50px;
+      }
+
+      &-2 {
+        margin-top: 50px;
+      }
+
+      &-3 {
+        justify-content: center;
+        margin-top: 50px;
+      }
+    }
+
+    &-card1 {
+      margin: 10px;
+
+      img {
+        width: 90%;
+        object-fit: cover;
+      }
+    }
+
+    &-card2 {
+      margin: 10px;
+
+      img {
+        width: 90%;
+        object-fit: cover;
+      }
+    }
+
+    &-card3 {
+      margin: 10px;
+
+      img {
+        width: 90%;
+        object-fit: cover;
+      }
+    }
+
+    &-card4 {
+      margin: 10px;
+
+      img {
+        width: 90%;
+        object-fit: cover;
+      }
+    }
+
+      &-card5 {
+        margin: 10px;
+        width: 50%;
+        img {
+          width: 90%;
+          object-fit: cover;
+        }
+      }
+
+    &-button {
+      margin: 100px 0 0 0;
+
+      button {
+        margin: 0;
+      }
+    }
+  }
+}
+
